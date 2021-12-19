@@ -111,7 +111,7 @@ section.images{
     padding: 4rem;
 }
 section.images img{
-    width: 90%;
+    width: 100%;
 }
 section.images .circle{
     position: absolute;
