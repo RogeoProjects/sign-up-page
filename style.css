@@ -107,6 +107,7 @@ section.images{
     width: 50vw;
     display: flex;
     align-items: flex-start;
+    justify-content: flex-start;
     padding: 4rem;
 }
 section.images img{
@@ -119,9 +120,11 @@ section.images .circle{
     top: 0;
     left: 0;
     background: linear-gradient(45deg, #E8CBC0, #636FA4);
-    clip-path: circle(50% at right 0);
+    clip-path: circle(60% at right 0);
     z-index: -1;
 }
+
+
 
 /* RESPONSIVIDADE*/
 
