@@ -112,6 +112,7 @@ section.images{
 }
 section.images img{
     width: 100%;
+    align-items: left;
 }
 section.images .circle{
     position: absolute;
