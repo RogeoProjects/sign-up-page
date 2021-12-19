@@ -25,6 +25,7 @@ main h1{
     color: rgba(129, 106, 160);
     font-size: 3rem;
     margin-bottom: 3rem;
+    text-align: center;
 }
 main .social-media{
     display: flex;
@@ -122,7 +123,6 @@ section.images .circle{
     clip-path: circle(50% at right 0);
     z-index: -1;
 }
-
 @media only screen and (min-width: 900px) and (max-width: 1200px){
     section.images img{
         width: 110%;
@@ -131,14 +131,26 @@ section.images .circle{
         clip-path: circle(35% at right 80%);
     }
 }
-
 @media only screen and (max-width: 900px){
     section.images{
         display: none;
         visibility: hidden;
     }
 }
-
 main{
     width: 100vw;
+}
+@media only screen and (max-width: 450px){
+    main h1{
+        font-size: 2rem;
+    }
+
+    main .alternative span{
+        font-size: 0.8rem;
+    }
+
+    main form label span, main form input[type="submit"]{
+        font-size: 1rem;
+    }
+    
 }
