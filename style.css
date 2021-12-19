@@ -108,7 +108,7 @@ section.images{
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 4rem;
+    padding: 2rem;
 }
 section.images img{
     width: 100%;
