@@ -111,6 +111,7 @@ section.images{
     padding: 3rem;
 }
 section.images img{
+    display: left;
     width: 100%;
     align-items: flex-start;
 }
