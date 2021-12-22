@@ -113,7 +113,7 @@ section.images{
 section.images img{
     margin-right: 5rem;
     display: left;
-    width: 100%;
+    width: 80%;
     align-items: flex-start;
 }
 section.images .circle{
