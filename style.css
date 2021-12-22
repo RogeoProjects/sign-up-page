@@ -106,14 +106,15 @@ main form input[type="submit"]:hover{
 section.images{
     width: 50vw;
     display: flex;
-    align-items: left;
+    align-items: flex-start;
     justify-content: flex-start;
     padding: 3rem;
 }
 section.images img{
-    display: flex;
-    align-content: left;
+    margin-right: 3rem;
+    display: left;
     width: 100%;
+    align-items: flex-start;
 }
 section.images .circle{
     position: absolute;
