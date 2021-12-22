@@ -106,7 +106,7 @@ main form input[type="submit"]:hover{
 section.images{
     width: 50vw;
     display: flex;
-    align-items: flex-start;
+    align-items: left;
     justify-content: flex-start;
     padding: 3rem;
 }
