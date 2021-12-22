@@ -107,14 +107,11 @@ section.images{
     width: 50vw;
     display: left;
     align-items: flex-start;
-    justify-content: flex-start;
-    padding: 3rem;
+    padding: 4rem;
 }
 section.images img{
-    margin-right: 5rem;
-    display: left;
     width: 100%;
-    align-items: flex-start;
+    
 }
 section.images .circle{
     position: absolute;
