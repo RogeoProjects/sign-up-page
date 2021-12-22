@@ -111,9 +111,9 @@ section.images{
     padding: 3rem;
 }
 section.images img{
-    display: left;
+    display: flex;
+    align-content: left;
     width: 100%;
-    align-items: flex-start;
 }
 section.images .circle{
     position: absolute;
