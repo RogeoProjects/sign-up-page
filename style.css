@@ -105,8 +105,8 @@ main form input[type="submit"]:hover{
 }
 section.images{
     width: 50vw;
-    display: left;
-    align-items: flex-start;
+    display: flex;
+    align-items: flex-end;
     padding: 4rem;
 }
 section.images img{
